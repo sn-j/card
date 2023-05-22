@@ -74,5 +74,11 @@ p {
   padding: 10px;
   border-radius: 20px;
   background-color: #ACBCFF;
+  cursor: pointer;
 
+}
+
+.btn:hover {
+  background-color: #C88EA7;
+  color: white;
 }

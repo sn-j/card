@@ -1,0 +1,78 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.main {
+  background-color: gainsboro;
+  height: 100vh;
+  position: relative;
+
+}
+
+.card-box {
+  border-radius: 10px;
+  width: 27%;
+  background-color: #E6FFFD;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.image {
+  padding: 3%;
+}
+
+.image img {
+  width: 100%;
+  border-radius: 10px;
+}
+
+.details {
+  margin-left: 4%;
+}
+
+.keywords {
+  display: flex;
+  gap: 13px;
+}
+
+.keywords #lake {
+  width: 20%;
+  background-color: #FBFFB1;
+  padding: 4px;
+  border-radius: 10px;
+  text-align: center;
+}
+
+.keywords #nature {
+  width: 20%;
+  background-color: #FCC8D1;
+  padding: 4px;
+  border-radius: 10px;
+  text-align: center;
+
+}
+
+
+h1 {
+  margin: 5% 0;
+}
+
+p {
+  line-height: 22px;
+  margin-right: 1%;
+
+  letter-spacing: .5px
+}
+
+.btn {
+  margin: 4.5% 0 7% 27%;
+  width: 32%;
+  padding: 10px;
+  border-radius: 20px;
+  background-color: #ACBCFF;
+
+}
